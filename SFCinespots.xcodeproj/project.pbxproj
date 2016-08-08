@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2753CCC91D590BD20060CD1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2753CCC81D590BD20060CD1E /* AppDelegate.swift */; };
+		2753CCCC1D590BD20060CD1E /* SFCinespots.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2753CCCA1D590BD20060CD1E /* SFCinespots.xcdatamodeld */; };
+		2753CCCE1D590BD20060CD1E /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2753CCCD1D590BD20060CD1E /* MasterViewController.swift */; };
+		2753CCD01D590BD20060CD1E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2753CCCF1D590BD20060CD1E /* DetailViewController.swift */; };
+		2753CCD31D590BD20060CD1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2753CCD11D590BD20060CD1E /* Main.storyboard */; };
+		2753CCD51D590BD20060CD1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2753CCD41D590BD20060CD1E /* Assets.xcassets */; };
+		2753CCD81D590BD20060CD1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2753CCD61D590BD20060CD1E /* LaunchScreen.storyboard */; };
+		2753CCE31D590BD20060CD1E /* SFCinespotsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2753CCE21D590BD20060CD1E /* SFCinespotsTests.swift */; };
+		2753CCEE1D590BD20060CD1E /* SFCinespotsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2753CCED1D590BD20060CD1E /* SFCinespotsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2753CCDF1D590BD20060CD1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2753CCBD1D590BD20060CD1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2753CCC41D590BD20060CD1E;
+			remoteInfo = SFCinespots;
+		};
+		2753CCEA1D590BD20060CD1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2753CCBD1D590BD20060CD1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2753CCC41D590BD20060CD1E;
+			remoteInfo = SFCinespots;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2753CCC51D590BD20060CD1E /* SFCinespots.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SFCinespots.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2753CCC81D590BD20060CD1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2753CCCB1D590BD20060CD1E /* SFCinespots.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SFCinespots.xcdatamodel; sourceTree = "<group>"; };
+		2753CCCD1D590BD20060CD1E /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		2753CCCF1D590BD20060CD1E /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		2753CCD21D590BD20060CD1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2753CCD41D590BD20060CD1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2753CCD71D590BD20060CD1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2753CCD91D590BD20060CD1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2753CCDE1D590BD20060CD1E /* SFCinespotsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SFCinespotsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2753CCE21D590BD20060CD1E /* SFCinespotsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFCinespotsTests.swift; sourceTree = "<group>"; };
+		2753CCE41D590BD20060CD1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2753CCE91D590BD20060CD1E /* SFCinespotsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SFCinespotsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2753CCED1D590BD20060CD1E /* SFCinespotsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFCinespotsUITests.swift; sourceTree = "<group>"; };
+		2753CCEF1D590BD20060CD1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2753CCC21D590BD20060CD1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2753CCDB1D590BD20060CD1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2753CCE61D590BD20060CD1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2753CCBC1D590BD20060CD1E = {
+			isa = PBXGroup;
+			children = (
+				2753CCC71D590BD20060CD1E /* SFCinespots */,
+				2753CCE11D590BD20060CD1E /* SFCinespotsTests */,
+				2753CCEC1D590BD20060CD1E /* SFCinespotsUITests */,
+				2753CCC61D590BD20060CD1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2753CCC61D590BD20060CD1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2753CCC51D590BD20060CD1E /* SFCinespots.app */,
+				2753CCDE1D590BD20060CD1E /* SFCinespotsTests.xctest */,
+				2753CCE91D590BD20060CD1E /* SFCinespotsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2753CCC71D590BD20060CD1E /* SFCinespots */ = {
+			isa = PBXGroup;
+			children = (
+				2753CCC81D590BD20060CD1E /* AppDelegate.swift */,
+				2753CCCD1D590BD20060CD1E /* MasterViewController.swift */,
+				2753CCCF1D590BD20060CD1E /* DetailViewController.swift */,
+				2753CCD11D590BD20060CD1E /* Main.storyboard */,
+				2753CCD41D590BD20060CD1E /* Assets.xcassets */,
+				2753CCD61D590BD20060CD1E /* LaunchScreen.storyboard */,
+				2753CCD91D590BD20060CD1E /* Info.plist */,
+				2753CCCA1D590BD20060CD1E /* SFCinespots.xcdatamodeld */,
+			);
+			path = SFCinespots;
+			sourceTree = "<group>";
+		};
+		2753CCE11D590BD20060CD1E /* SFCinespotsTests */ = {
+			isa = PBXGroup;
+			children = (
+				2753CCE21D590BD20060CD1E /* SFCinespotsTests.swift */,
+				2753CCE41D590BD20060CD1E /* Info.plist */,
+			);
+			path = SFCinespotsTests;
+			sourceTree = "<group>";
+		};
+		2753CCEC1D590BD20060CD1E /* SFCinespotsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2753CCED1D590BD20060CD1E /* SFCinespotsUITests.swift */,
+				2753CCEF1D590BD20060CD1E /* Info.plist */,
+			);
+			path = SFCinespotsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2753CCC41D590BD20060CD1E /* SFCinespots */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2753CCF21D590BD20060CD1E /* Build configuration list for PBXNativeTarget "SFCinespots" */;
+			buildPhases = (
+				2753CCC11D590BD20060CD1E /* Sources */,
+				2753CCC21D590BD20060CD1E /* Frameworks */,
+				2753CCC31D590BD20060CD1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SFCinespots;
+			productName = SFCinespots;
+			productReference = 2753CCC51D590BD20060CD1E /* SFCinespots.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2753CCDD1D590BD20060CD1E /* SFCinespotsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2753CCF51D590BD20060CD1E /* Build configuration list for PBXNativeTarget "SFCinespotsTests" */;
+			buildPhases = (
+				2753CCDA1D590BD20060CD1E /* Sources */,
+				2753CCDB1D590BD20060CD1E /* Frameworks */,
+				2753CCDC1D590BD20060CD1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2753CCE01D590BD20060CD1E /* PBXTargetDependency */,
+			);
+			name = SFCinespotsTests;
+			productName = SFCinespotsTests;
+			productReference = 2753CCDE1D590BD20060CD1E /* SFCinespotsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2753CCE81D590BD20060CD1E /* SFCinespotsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2753CCF81D590BD20060CD1E /* Build configuration list for PBXNativeTarget "SFCinespotsUITests" */;
+			buildPhases = (
+				2753CCE51D590BD20060CD1E /* Sources */,
+				2753CCE61D590BD20060CD1E /* Frameworks */,
+				2753CCE71D590BD20060CD1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2753CCEB1D590BD20060CD1E /* PBXTargetDependency */,
+			);
+			name = SFCinespotsUITests;
+			productName = SFCinespotsUITests;
+			productReference = 2753CCE91D590BD20060CD1E /* SFCinespotsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2753CCBD1D590BD20060CD1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Broham Inc.";
+				TargetAttributes = {
+					2753CCC41D590BD20060CD1E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					2753CCDD1D590BD20060CD1E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 2753CCC41D590BD20060CD1E;
+					};
+					2753CCE81D590BD20060CD1E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 2753CCC41D590BD20060CD1E;
+					};
+				};
+			};
+			buildConfigurationList = 2753CCC01D590BD20060CD1E /* Build configuration list for PBXProject "SFCinespots" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2753CCBC1D590BD20060CD1E;
+			productRefGroup = 2753CCC61D590BD20060CD1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2753CCC41D590BD20060CD1E /* SFCinespots */,
+				2753CCDD1D590BD20060CD1E /* SFCinespotsTests */,
+				2753CCE81D590BD20060CD1E /* SFCinespotsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2753CCC31D590BD20060CD1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2753CCD81D590BD20060CD1E /* LaunchScreen.storyboard in Resources */,
+				2753CCD51D590BD20060CD1E /* Assets.xcassets in Resources */,
+				2753CCD31D590BD20060CD1E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2753CCDC1D590BD20060CD1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2753CCE71D590BD20060CD1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2753CCC11D590BD20060CD1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2753CCC91D590BD20060CD1E /* AppDelegate.swift in Sources */,
+				2753CCCC1D590BD20060CD1E /* SFCinespots.xcdatamodeld in Sources */,
+				2753CCCE1D590BD20060CD1E /* MasterViewController.swift in Sources */,
+				2753CCD01D590BD20060CD1E /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2753CCDA1D590BD20060CD1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2753CCE31D590BD20060CD1E /* SFCinespotsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2753CCE51D590BD20060CD1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2753CCEE1D590BD20060CD1E /* SFCinespotsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2753CCE01D590BD20060CD1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2753CCC41D590BD20060CD1E /* SFCinespots */;
+			targetProxy = 2753CCDF1D590BD20060CD1E /* PBXContainerItemProxy */;
+		};
+		2753CCEB1D590BD20060CD1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2753CCC41D590BD20060CD1E /* SFCinespots */;
+			targetProxy = 2753CCEA1D590BD20060CD1E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2753CCD11D590BD20060CD1E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2753CCD21D590BD20060CD1E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2753CCD61D590BD20060CD1E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2753CCD71D590BD20060CD1E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2753CCF01D590BD20060CD1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2753CCF11D590BD20060CD1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2753CCF31D590BD20060CD1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SFCinespots/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.broham.SFCinespots;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2753CCF41D590BD20060CD1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SFCinespots/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.broham.SFCinespots;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2753CCF61D590BD20060CD1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SFCinespotsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.broham.SFCinespotsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SFCinespots.app/SFCinespots";
+			};
+			name = Debug;
+		};
+		2753CCF71D590BD20060CD1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SFCinespotsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.broham.SFCinespotsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SFCinespots.app/SFCinespots";
+			};
+			name = Release;
+		};
+		2753CCF91D590BD20060CD1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SFCinespotsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.broham.SFCinespotsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SFCinespots;
+			};
+			name = Debug;
+		};
+		2753CCFA1D590BD20060CD1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SFCinespotsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.broham.SFCinespotsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SFCinespots;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2753CCC01D590BD20060CD1E /* Build configuration list for PBXProject "SFCinespots" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2753CCF01D590BD20060CD1E /* Debug */,
+				2753CCF11D590BD20060CD1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2753CCF21D590BD20060CD1E /* Build configuration list for PBXNativeTarget "SFCinespots" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2753CCF31D590BD20060CD1E /* Debug */,
+				2753CCF41D590BD20060CD1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2753CCF51D590BD20060CD1E /* Build configuration list for PBXNativeTarget "SFCinespotsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2753CCF61D590BD20060CD1E /* Debug */,
+				2753CCF71D590BD20060CD1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2753CCF81D590BD20060CD1E /* Build configuration list for PBXNativeTarget "SFCinespotsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2753CCF91D590BD20060CD1E /* Debug */,
+				2753CCFA1D590BD20060CD1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2753CCCA1D590BD20060CD1E /* SFCinespots.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2753CCCB1D590BD20060CD1E /* SFCinespots.xcdatamodel */,
+			);
+			currentVersion = 2753CCCB1D590BD20060CD1E /* SFCinespots.xcdatamodel */;
+			path = SFCinespots.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2753CCBD1D590BD20060CD1E /* Project object */;
+}
