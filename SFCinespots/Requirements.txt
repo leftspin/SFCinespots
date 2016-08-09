@@ -1,0 +1,17 @@
+Project Requirements:
+
+Build an iOS app using Xcode in Swift to display locations where movies were filmed in San Francisco.
+
+Requirements:
+Data should be retrieved from the API using JSON
+URL: https://data.sfgov.org/api/views/yitu-d5am/rows.json?accessType=DOWNLOAD
+Documentation: https://data.sfgov.org/developers
+Data Set: https://data.sfgov.org/Culture-and-Recreation/Film-Locations-in-San-Francisco/yitu-d5am
+Data should be displayed as a sorted list showing the movie, date, and location
+
+Bonus Points:
+Track your work in git
+Don’t use any third party frameworks
+Tapping on an item in the list displays that location on a map
+Provide a way for the user to apply custom sorting to the list
+Cache parsed data locally in Core Data

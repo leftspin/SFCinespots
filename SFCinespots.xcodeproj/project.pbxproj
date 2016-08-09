@@ -16,6 +16,8 @@
 		2753CCD81D590BD20060CD1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2753CCD61D590BD20060CD1E /* LaunchScreen.storyboard */; };
 		2753CCE31D590BD20060CD1E /* SFCinespotsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2753CCE21D590BD20060CD1E /* SFCinespotsTests.swift */; };
 		2753CCEE1D590BD20060CD1E /* SFCinespotsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2753CCED1D590BD20060CD1E /* SFCinespotsUITests.swift */; };
+		2753CD041D597F9F0060CD1E /* FilmLocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2753CD031D597F9F0060CD1E /* FilmLocationService.swift */; };
+		2753CD061D59A3470060CD1E /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2753CD051D59A3470060CD1E /* Utility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		2753CCE91D590BD20060CD1E /* SFCinespotsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SFCinespotsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2753CCED1D590BD20060CD1E /* SFCinespotsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFCinespotsUITests.swift; sourceTree = "<group>"; };
 		2753CCEF1D590BD20060CD1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2753CD001D590E6D0060CD1E /* Requirements.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Requirements.txt; sourceTree = "<group>"; };
+		2753CD031D597F9F0060CD1E /* FilmLocationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilmLocationService.swift; sourceTree = "<group>"; };
+		2753CD051D59A3470060CD1E /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +106,11 @@
 		2753CCC71D590BD20060CD1E /* SFCinespots */ = {
 			isa = PBXGroup;
 			children = (
-				2753CCC81D590BD20060CD1E /* AppDelegate.swift */,
-				2753CCCD1D590BD20060CD1E /* MasterViewController.swift */,
-				2753CCCF1D590BD20060CD1E /* DetailViewController.swift */,
-				2753CCD11D590BD20060CD1E /* Main.storyboard */,
-				2753CCD41D590BD20060CD1E /* Assets.xcassets */,
-				2753CCD61D590BD20060CD1E /* LaunchScreen.storyboard */,
-				2753CCD91D590BD20060CD1E /* Info.plist */,
-				2753CCCA1D590BD20060CD1E /* SFCinespots.xcdatamodeld */,
+				2753CD021D597F6D0060CD1E /* Service */,
+				2753CCFB1D590C430060CD1E /* Application */,
+				2753CCFC1D590C4E0060CD1E /* Screen */,
+				2753CCFF1D590C6E0060CD1E /* Model */,
+				2753CD001D590E6D0060CD1E /* Requirements.txt */,
 			);
 			path = SFCinespots;
 			sourceTree = "<group>";
@@ -129,6 +131,60 @@
 				2753CCEF1D590BD20060CD1E /* Info.plist */,
 			);
 			path = SFCinespotsUITests;
+			sourceTree = "<group>";
+		};
+		2753CCFB1D590C430060CD1E /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				2753CCC81D590BD20060CD1E /* AppDelegate.swift */,
+				2753CCD41D590BD20060CD1E /* Assets.xcassets */,
+				2753CCD91D590BD20060CD1E /* Info.plist */,
+				2753CD051D59A3470060CD1E /* Utility.swift */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		2753CCFC1D590C4E0060CD1E /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				2753CCD61D590BD20060CD1E /* LaunchScreen.storyboard */,
+				2753CCD11D590BD20060CD1E /* Main.storyboard */,
+				2753CCFE1D590C5D0060CD1E /* Detail */,
+				2753CCFD1D590C550060CD1E /* Master */,
+			);
+			name = Screen;
+			sourceTree = "<group>";
+		};
+		2753CCFD1D590C550060CD1E /* Master */ = {
+			isa = PBXGroup;
+			children = (
+				2753CCCD1D590BD20060CD1E /* MasterViewController.swift */,
+			);
+			name = Master;
+			sourceTree = "<group>";
+		};
+		2753CCFE1D590C5D0060CD1E /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				2753CCCF1D590BD20060CD1E /* DetailViewController.swift */,
+			);
+			name = Detail;
+			sourceTree = "<group>";
+		};
+		2753CCFF1D590C6E0060CD1E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2753CCCA1D590BD20060CD1E /* SFCinespots.xcdatamodeld */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		2753CD021D597F6D0060CD1E /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				2753CD031D597F9F0060CD1E /* FilmLocationService.swift */,
+			);
+			name = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +255,7 @@
 				TargetAttributes = {
 					2753CCC41D590BD20060CD1E = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 499Z8DV26P;
 					};
 					2753CCDD1D590BD20060CD1E = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -263,6 +320,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2753CCC91D590BD20060CD1E /* AppDelegate.swift in Sources */,
+				2753CD041D597F9F0060CD1E /* FilmLocationService.swift in Sources */,
+				2753CD061D59A3470060CD1E /* Utility.swift in Sources */,
 				2753CCCC1D590BD20060CD1E /* SFCinespots.xcdatamodeld in Sources */,
 				2753CCCE1D590BD20060CD1E /* MasterViewController.swift in Sources */,
 				2753CCD01D590BD20060CD1E /* DetailViewController.swift in Sources */,
@@ -409,10 +468,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SFCinespots/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.broham.SFCinespots;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -420,10 +482,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SFCinespots/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.broham.SFCinespots;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
