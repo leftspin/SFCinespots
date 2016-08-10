@@ -107,7 +107,7 @@ class FilmLocationService {
         async {
             // and right back into a different thread to load up core data…
             let privateMOC = NSManagedObjectContext(concurrencyType: .PrivateQueueConcurrencyType)
-            privateMOC.parentContext = self.managedObjectContext
+            privateMOC.parentContext = context
             privateMOC.mergePolicy = NSMergeByPropertyObjectTrumpMergePolicy
             privateMOC.performBlock {
                 
@@ -121,7 +121,7 @@ class FilmLocationService {
                     filmLocationDict in
                     if  let title = filmLocationDict["title"],
                         let locations = filmLocationDict["locations"] {
-                        let newManagedObject = NSEntityDescription.insertNewObjectForEntityForName(entity.name!, inManagedObjectContext: context)
+                        let newManagedObject = NSEntityDescription.insertNewObjectForEntityForName(entity.name!, inManagedObjectContext: privateMOC)
                         newManagedObject.setValue(title, forKey: "title")
                         newManagedObject.setValue(locations, forKey: "locations")
                         newManagedObject.setValue(filmLocationDict["release_year"] ?? NSNull(), forKey: "release_year")

@@ -4,6 +4,12 @@
         <attribute name="locations" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="release_year" attributeType="String" syncable="YES"/>
         <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="title"/>
+                <constraint value="locations"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
         <userInfo/>
     </entity>
     <elements>

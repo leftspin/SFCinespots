@@ -56,6 +56,7 @@
 		2753CD001D590E6D0060CD1E /* Requirements.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Requirements.txt; sourceTree = "<group>"; };
 		2753CD031D597F9F0060CD1E /* FilmLocationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilmLocationService.swift; sourceTree = "<group>"; };
 		2753CD051D59A3470060CD1E /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		27F421591D5A911B0083041D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +87,7 @@
 		2753CCBC1D590BD20060CD1E = {
 			isa = PBXGroup;
 			children = (
+				27F421591D5A911B0083041D /* MapKit.framework */,
 				2753CCC71D590BD20060CD1E /* SFCinespots */,
 				2753CCE11D590BD20060CD1E /* SFCinespotsTests */,
 				2753CCEC1D590BD20060CD1E /* SFCinespotsUITests */,
@@ -557,6 +559,7 @@
 				2753CCF41D590BD20060CD1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2753CCF51D590BD20060CD1E /* Build configuration list for PBXNativeTarget "SFCinespotsTests" */ = {
 			isa = XCConfigurationList;
@@ -565,6 +568,7 @@
 				2753CCF71D590BD20060CD1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2753CCF81D590BD20060CD1E /* Build configuration list for PBXNativeTarget "SFCinespotsUITests" */ = {
 			isa = XCConfigurationList;
@@ -573,6 +577,7 @@
 				2753CCFA1D590BD20060CD1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
