@@ -135,8 +135,6 @@ class FilmLocationService {
                         } else {
                             results.forEach {
                                 result in
-                                result.setValue(title, forKey: "title")
-                                result.setValue(locations, forKey: "locations")
                                 result.setValue(filmLocationDict["release_year"] ?? NSNull(), forKey: "release_year")
                             }
                         } // if results
